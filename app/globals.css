@@ -7,6 +7,12 @@
   --color-yellow-400: #fdd458;
 }
 
+@layer utilities {
+  .home-wrapper {
+    @apply text-gray-400 flex-col gap-4 md:gap-10 items-center sm:items-start;
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
